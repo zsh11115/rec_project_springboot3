@@ -23,6 +23,7 @@ public enum ResultEnum {
     USER_ACCOUNT_FORBIDDEN(20003, "账号已被禁用"),
     USER_NOT_EXIST(20004, "用户不存在"),
     USER_HAS_EXISTED(20005, "用户已存在"),
+    USER_HAS_LOCKED(20006, "用户已锁定"),
 
     /* 系统错误：40001-49999 */
     FILE_MAX_SIZE_OVERFLOW(40003, "上传尺寸过大"),
